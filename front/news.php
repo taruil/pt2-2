@@ -8,6 +8,7 @@
   </tr>
   <?php
   $count=$News->count(['sh'=>1]);
+  echo $count;
   $div=5;
   $pages=ceil($count/$div);
   $now=(isset($_GET['p']))?$_GET['p']:1;

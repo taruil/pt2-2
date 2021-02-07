@@ -19,7 +19,7 @@ foreach($all as $key => $news){
   <tr>
     <td><?=$start+$key+1;?></td>
     <td><?=$news['title'];?></td>
-    <td><input type="checkbox" name="sh[]" value="<?=$news['id'];?>"></td>
+    <td><input type="checkbox" name="sh[]" value="<?=$news['id'];?>" <?=($news['sh']==1)?"checked":"";?>></td>
     <td><input type="checkbox" name="del[]" value="<?=$news['id'];?>"></td>
     <input type="hidden" name="id[]" value="<?=$news['id'];?>">
   </tr>
