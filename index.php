@@ -36,7 +36,7 @@
 						<span style="width:70%;display:inline-block"><marquee>請民眾踴躍投稿電子報，使電子報成為大家相互交流、分享的園地!詳見最新文章</marquee></span>
             	<div>
             		
-                	<span style="width:20%; display:inline-block;">
+                	<span style="width:20%; display:inline-block;float:right;text-align:right">
 																						<?php
 																						if(empty($_SESSION['login'])){
 																							echo "<a href='?do=login'>會員登入</a>";
