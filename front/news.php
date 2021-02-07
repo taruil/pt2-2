@@ -46,14 +46,14 @@
   <div class="ct">
   <?php
 if(($now-1)>0){
-  echo "<a href='front.php?do=news&p=" .($now-1)."' > &lt; </a>";
+  echo "<a href='index.php?do=news&p=" .($now-1)."' > &lt; </a>";
 }
 for($i=1;$i<=$pages;$i++){
 $fontsize=($i==$now)?"28px":"18px";
-echo "<a href='front.php?do=news&p=$i' style='font-size:$fontsize'> $i </a>";
+echo "<a href='index.php?do=news&p=$i' style='font-size:$fontsize'> $i </a>";
 }
 if(($now+1)<=$pages){
-  echo "<a href='front.php?do=news&p=" .($now+11)."' > &gt; </a>";
+  echo "<a href='index.php?do=news&p=" .($now+11)."' > &gt; </a>";
 }
   ?>
 </div>
