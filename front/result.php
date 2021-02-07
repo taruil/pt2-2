@@ -27,7 +27,7 @@ $options=$Que->all(['subject'=>$id]);
         }
 ?>
 </table>
-<input type="hidden" name="subject" value="<?=$option['id'];?>">
-<div class="ct"><a href="index.php?do=que"><button type="botton">返回</button></a></div>
+<input type="hidden" name="subject" value="<?=$subject['id'];?>">
+<div class="ct"><a href="index.php?do=que"><button type="button">返回</button></a></div>
 </form>
 </fieldset>
